@@ -1,0 +1,92 @@
+body{
+    background:linear-gradient(to bottom, rgb(255, 238, 0), #ad87ff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 45px;
+}
+
+.back {
+    background: #ffffff;
+    padding:6px 12px;
+    margin:15px;
+	margin-top: 15px;
+	margin-bottom: 0;
+	margin-left: 20px;
+    display:inline;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    outline: none;
+}
+form{
+    margin-top: 50px;
+}
+table{
+    margin-top: 50px;
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(209, 255, 4);
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(11, 11, 11);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 135, 135);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #ff9e9e;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #a44bd8;
+}
+
+input[type="reset"]:hover{
+    background: #a647c6;
+}
+
+button{
+    background: #cfeb18;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#f95fb4 ;
+}
+
